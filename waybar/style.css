@@ -1,0 +1,37 @@
+/*applies to all the elements*/
+* {
+    border:none;
+    border-radius:0;
+    font-family:ProggyClean Nerd Font;
+    font-size:15px;
+    min-height: 0;
+}
+
+/*applies to the waybar window*/
+window#waybar{
+    background:rgba(172,172,172,0.5);
+    border-bottom: 2px solid rgba(245,245,255,0.5);
+    color:white;
+}
+
+#clock{
+    border:rgb(172,172,172);
+    border-width:1px;
+    border-style:solid;
+    border-radius:4px;
+    
+}
+
+#tags button.focused{
+    color:white;
+}
+
+#battery{
+    margin:0px 0px 0px 3px
+}
+#memory, #network, #clock, #backlight, #pulseaudio{
+    margin:0px 3px 0px 0px;
+}
+#bluetooth{
+    margin:0px 3px 0px 0px;
+}
